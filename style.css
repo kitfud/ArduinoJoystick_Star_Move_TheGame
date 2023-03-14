@@ -7,6 +7,7 @@ html {
             background-image: url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA3L2xyL25hc2EwMDAwMS1pbWFnZS5qcGc.jpg");
       background-repeat: no-repeat;
     background-size: 100% 100%;
+   font-family: 'Sono', sans-serif;
          }
 
 .circle{
@@ -112,6 +113,7 @@ html {
 
 button{
   margin-top: 5px;
+  font-family: 'Sono', sans-serif;
 }
 
 #scoreboard{
