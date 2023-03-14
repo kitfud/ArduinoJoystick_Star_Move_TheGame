@@ -1,0 +1,124 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+ body {
+            background-image: url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA3L2xyL25hc2EwMDAwMS1pbWFnZS5qcGc.jpg");
+      background-repeat: no-repeat;
+    background-size: 100% 100%;
+         }
+
+.circle{
+  background: yellow;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  position:absolute;
+  left:50%;
+}
+
+#reading{
+  text-align: center;
+  font-size: 50px;
+  color:blue;
+}
+
+  #star-five {
+      margin: 50px 0;
+      display: block;
+      color: yellow;
+      width: 0px;
+      height: 0px;
+      border-right: 100px solid transparent;
+      border-bottom: 70px solid yellow;
+      border-left: 100px solid transparent;
+      transform: rotate(35deg);
+    position:absolute; 
+    }
+    #star-five:before {
+      border-bottom: 80px solid yellow;
+      border-left: 30px solid transparent;
+      border-right: 30px solid transparent;
+      position: absolute;
+      height: 0;
+      width: 0;
+      top: -45px;
+      left: -65px;
+      display: block;
+      content: '';
+      transform: rotate(-35deg);
+    }
+    #star-five:after {
+      position: absolute;
+      display: block;
+      color: yellow;
+      top: 3px;
+      left: -105px;
+      width: 0px;
+      height: 0px;
+      border-right: 100px solid transparent;
+      border-bottom: 70px solid yellow;
+      border-left: 100px solid transparent;
+      transform: rotate(-70deg);
+      content: '';
+    }
+
+
+  #star2-five {
+      margin: 50px 0;
+      display: block;
+      color: red;
+      width: 0px;
+      height: 0px;
+      border-right: 100px solid transparent;
+      border-bottom: 70px solid red;
+      border-left: 100px solid transparent;
+      transform: rotate(35deg);
+      position:absolute; 
+    }
+    #star2-five:before {
+      border-bottom: 80px solid red;
+      border-left: 30px solid transparent;
+      border-right: 30px solid transparent;
+      position: absolute;
+      height: 0;
+      width: 0;
+      top: -45px;
+      left: -65px;
+      display: block;
+      content: '';
+      transform: rotate(-35deg);
+    }
+    #star2-five:after {
+      position: absolute;
+      display: block;
+      color: red;
+      top: 3px;
+      left: -105px;
+      width: 0px;
+      height: 0px;
+      border-right: 100px solid transparent;
+      border-bottom: 70px solid red;
+      border-left: 100px solid transparent;
+      transform: rotate(-70deg);
+      content: '';
+    }
+
+#download{
+  color:white;
+  margin-bottom: 59px !important;
+}
+
+button{
+  margin-top: 5px;
+}
+
+#scoreboard{
+  position:absolute;
+  font-size: 20px;
+  font-weight: 700;
+  color:red;
+  right:5%;
+  top:2%;
+}
